@@ -1,0 +1,10 @@
+.asLogList{
+    padding-inline-start: 0px;
+    height: 800px;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+
+.asLogList::-webkit-scrollbar {
+    display:none
+}
