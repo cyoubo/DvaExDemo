@@ -34,9 +34,9 @@ function AsLogToolBar({ props, dispatch }) {
     return (
     <div>
         <div className = {style.title}>
-            <span className = {style.label}>起始时间</span>
+            <span className = {style.label}>起始时间:</span>
             <span className = {style.value}>{DateRange[0].format()}</span>
-            <span className = {style.label}>终止时间</span>
+            <span className = {style.label}>终止时间:</span>
             <span className = {style.value}>{DateRange[1].format()}</span>
         </div>
     </div>)

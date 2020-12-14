@@ -1,0 +1,17 @@
+{
+    "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+        ],
+    "proxy": {
+        "/localserverapi": {
+          "target": "http://192.168.1.87:6080/arcgis/admin",
+          "changeOrigin": true,
+          "pathRewrite": { "^/localserverapi" : "" }
+        },
+        "/server03api": {
+          "target": "http://192.168.1.87:6080/arcgis/admin",
+          "changeOrigin": true,
+          "pathRewrite": { "^/server03api" : "" }
+        }
+      }
+}
